@@ -1,0 +1,27 @@
+{
+  "name": "mongoapp",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "express-async-errors": "^3.1.1",
+    "helmet": "^4.1.1",
+    "http-errors": "~1.6.3",
+    "joi": "^17.3.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.11",
+    "morgan": "^1.9.1",
+    "nodemon": "^2.0.6",
+    "pug": "2.0.0-beta11",
+    "winston": "^3.3.3",
+    "winston-mongodb": "^5.0.5"
+  }
+}
